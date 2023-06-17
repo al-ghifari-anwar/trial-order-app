@@ -2,8 +2,8 @@
 
 $db_host = 'localhost';
 $db_user = 'root';
-$db_pass = '';
-$db_name = 'db_orderwa';
+$db_pass = 'Srv.TopMortar1ndonesia!';
+$db_name = 'admin_orderapp';
 
 $conn = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
 
