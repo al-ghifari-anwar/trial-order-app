@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 
         echo json_encode(array("status" => "ok", "result" => $transArray));
     } else {
-        $result = mysqli_query($conn, "SELECT * FROM tb_order");
+        $result = mysqli_query($conn, "SELECT * FROM tb_order WHERE tb_order.status = 'waiting'");
 
         while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
             $transArray[] = $row;
