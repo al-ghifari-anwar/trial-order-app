@@ -1,7 +1,7 @@
 <?php
 
 $db_host = 'localhost';
-$db_user = 'root';
+$db_user = 'admin_orderapp';
 $db_pass = 'Srv.TopMortar1ndonesia!';
 $db_name = 'admin_orderapp';
 
