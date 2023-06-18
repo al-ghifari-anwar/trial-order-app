@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     $nominal = $_POST['nominal'];
     $nomor_hp = $_POST['nomorhp'];
 
-    $pengurangan = 5;
+    $pengurangan = 0;
 
     $queryCheck = mysqli_query($conn, "SELECT * FROM tb_order WHERE tb_order.status = 'waiting'");
 
